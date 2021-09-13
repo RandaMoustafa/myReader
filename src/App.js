@@ -20,7 +20,7 @@ class BooksApp extends React.Component {
   render() {
     return (
       <div className="app">
-        
+        {/* Make a Rout with React Router */}
         <Switch>
           <Route exact path='/' render={()=>(<Home/>)} />
           <Route path='/search' render={()=>(<SearchPage/>)}/>
