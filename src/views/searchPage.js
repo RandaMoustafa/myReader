@@ -28,7 +28,7 @@ class SearchPage extends Component{
                 BookAPI.search(this.state.query.trim())
                 .then(res=> {
                     if(res.error){
-                        return this.setState({results: []})
+                        return this.setState({results: []});
                     }else{
                         res.forEach(b=>{
                             let f = this.state.books.filter(book=> book.id === b.id);
