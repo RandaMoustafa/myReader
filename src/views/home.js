@@ -1,8 +1,7 @@
-import React, {Component } from "react";
+import React, { Component } from "react";
 import Search from "../component/search";
 import Shelf from "../component/shelf";
 import * as BookAPI from '../BooksAPI';
- 
 
 class Home extends Component{
     state = {
