@@ -25,6 +25,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage" :  "https://RandaMoustafa.github.io/myReader"
 
 }
