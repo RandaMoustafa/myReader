@@ -19,7 +19,13 @@ function Book({books, updatedBook}){
         </div>
     </div>
     <div className="book-title">{books.title}</div>
-    <div className="book-authors">{books.authors && books.authors[0]}</div>
+    {books.authors &&
+        books.authors.map((author, index) => (
+            <div className="book-authors" key={index}>
+                {author}
+            </div>
+            ))}
+
     </div>
 </li>
 
